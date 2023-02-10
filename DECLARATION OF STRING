@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+ 
+    char str[145];
+    scanf("%[^\n]s",str);
+    printf("%s",str);
+    
+
+    return 0;
+}
